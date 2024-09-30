@@ -22,7 +22,7 @@ class CommentType(Enum):
 class Pytive:
     def __init__(self):
         self.session = requests.session()
-        self.user_agent = 'MR_APP/9.85.0/StiffCock/F4-RT/9'
+        self.user_agent = 'MR_APP/10.86.0/StiffCock/F4-RT/9'
         self.common_headers = {
             'HTTP_X_TIMEZONE': 'Asia/Tokyo',
             'x-idfv': secrets.token_hex(int(17 / 2)),
